@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/codespaces-blank/mlops-mini-project/mlruns/410587195060086244/29e24d3f75514da999a8e8cb43aed5c1/artifacts
+end_time: 1731960004900
+entry_point_name: ''
+experiment_id: '410587195060086244'
+lifecycle_stage: active
+run_id: 29e24d3f75514da999a8e8cb43aed5c1
+run_name: worried-swan-819
+run_uuid: 29e24d3f75514da999a8e8cb43aed5c1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731960001744
+status: 3
+tags: []
+user_id: codespace
