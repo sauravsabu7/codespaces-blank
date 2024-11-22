@@ -32,3 +32,9 @@ jobs:
           DAGS_HUB: ${{ secrets.DAGS_HUB }}
         run: |
           dvc repro
+
+      - name: run model tests
+        env: 
+          DAGS_HUB: ${{ secrets.DAGS_HUB }}
+        run: |
+          python -m unittest tests/test_model.py
