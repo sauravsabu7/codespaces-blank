@@ -5,7 +5,7 @@ import mlflow
 
 def promote_model():
     # Set up DagsHub credentials for MLflow tracking
-    dagshub_token = os.getenv("DAGSHUB_PAT")
+    dagshub_token = os.getenv("DAGS_HUB")
     if not dagshub_token:
         raise EnvironmentError("DAGSHUB_PAT environment variable is not set")
 
